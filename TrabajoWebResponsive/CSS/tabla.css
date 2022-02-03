@@ -1,0 +1,6 @@
+table{
+	border-color: darkgreen;
+}
+ :hover {
+  background-color: orange;
+}

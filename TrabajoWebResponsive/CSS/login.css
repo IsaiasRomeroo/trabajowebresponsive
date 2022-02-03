@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+
+	margin: 0;
+	font-family: sans-serif;
+
+}
+body background-image: ;{
+	margin-top: 1500px;
+}
+
+.formulario{
+
+	width: 500px;/*ancho*/
+	margin: auto;/*posibilidad de responsive*/
+	max-width: 100%;/*anchura maxima*/
+	margin-top: 35px;/*para bajar los campos*/
+	padding: 25px;
+	position: relative;
+}
+.formularioEncabezado{
+
+	text-align: center;
+	margin-top: 0;
+}
+.formularioInput{
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	border: 1px solid black;
+	margin-bottom: 45px;
+	padding: 20px;
+
+
+}
+.formularioInput:focus{
+    outline: 1px gray;
+}
+.formularioInput:focus +.formularioLabel{
+	margin-top: -135px;/*con esto hacemos que lo que hay 
+	escrito dentro del label suba hacia arriba*/
+}
+
+.formularioLabel{/*con esto el label ira encima de las cajas*/
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	padding-left: 18px;
+	position: absolute;
+	margin-top: -80px;
+	/*los campos se vienen detras y no se ven,
+	tengo que poner un background transparent,y si podria escribir en los input*/
+	transition: all 0.s;/* es lo que produce la "animacion" de los margin top de los label*/
+}
+.formularioSubmit{
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	background: rgba(0,0,0,0.6);
+	padding: 10px 20px;/*10px hacia arriba y 20px en los costados*/
+	color: white;
+	
+	cursor :pointer;
+
+}
+.fijar{
+	margin-top: -135px;
+}

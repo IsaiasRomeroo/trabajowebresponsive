@@ -1,0 +1,57 @@
+body{
+	background-color:greenyellow;
+}
+
+p{
+	margin-top: 200px;
+
+}	
+
+/*	background-color:orangered;
+	
+}*/
+
+
+
+#whatsapp{
+	margin-left: 50px;
+	margin-right: 1600px;
+	position: relative;
+	top: 5px;
+	
+
+}
+
+#twit{
+	margin-left: 50px;
+	margin-right: 1600px;
+	position: relative;
+	top: 25px;
+}
+
+#facebook{
+	margin-left: 50px;
+	margin-right: 1600px;
+	position: relative;
+    top: 50px;
+
+}
+
+
+#instagram {
+	margin-left: 50px;
+	margin-right: 1600px;
+	position: relative;
+	top: 75px;
+}
+
+#tienda{
+	position:relative;
+	bottom: 140px;
+	margin-left: 10px;
+	float: center;
+
+}
+
+
+

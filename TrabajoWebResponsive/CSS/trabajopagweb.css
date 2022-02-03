@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+ul {
+  height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  height: 30px;
+  float: left;
+}
+
+li a {
+  margin-left: 360px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: orange;
+}
+
+
+body {
+
+  background-color: #8AFF33;
+
+ }
+h2{
+  margin: 0px;
+}
+ h1  {
+
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:70px ;
+  width:1000px;
+ }
+
+ #menu{
+
+ 	background-color:#FCFF33;
+  padding: 5px;
+  height: 2 px;
+  weight: 2 px;
+  border: 2px solid green;
+
+ }
+
+#banner img{
+  margin-left: 200px;
+}
+
+ #banner{
+ 	background-color:#CFDCBE;
+  height: 70px;
+  weight: 2px;
+  border: 2px solid green;
+  margin: 5px;
+ }
+
+ #marcofoto{
+ 	background-color:white;
+  height: 600px;
+  weight: 600px;
+  border: 2px solid green;
+  margin: 5px;
+
+ }
+ #fotoplanta{
+ 	background-color:#CFDCBE;
+  height: 550px;
+  weight: 450px;
+  border: 2px solid green;
+  margin-top: 5px;
+  margin-right: 1000px;
+
+  margin-left: 20px;
+ }
+ #pie{
+  background-color:#CFDCBE;
+  padding: 25px;
+  height: 2px;
+  weight: 2px;
+  border: 2px solid green;
+  margin: 0.1px;
+
+  clear: both;
+ }
+
+ #p{
+ float :right;
+ margin:20px;
+ width:950px;
+ }
+#MenuInicio{
+  position: relative;
+  width: 250px;
+}
+.submenu1{
+  width: 90px;
+}
+.botonini{
+  background-color: #CFDCBE;
+}
+.botonini a{
+  margin-top: 0px;
+  color: black;
+}
+
+#copy{
+
+  float: left;
+}
+
+.foot {
+  float: right;
+  margin-right:15px ;
+  font-size: 15;
+
+}
+.foot li{
+   float: right;
+  border-right: 2px solid green;
+  
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}

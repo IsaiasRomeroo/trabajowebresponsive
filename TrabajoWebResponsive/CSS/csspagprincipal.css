@@ -1,0 +1,211 @@
+
+#logo{
+  text-align: left;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  top: 70px;
+  border-color: white;
+}
+
+.container{
+	
+	background-color:lightgoldenrodyellow;
+	width: 1500px;
+	padding: 50px;
+	height:600px;
+  padding-right: 322px;
+ 
+}
+
+ul,li {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+
+}
+
+.slider{
+  width: 95%;
+  bottom: 100px;
+  margin: auto;
+  overflow: hidden;
+  margin-left: 200px;
+
+   
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 800%;
+  height: 700px;
+  animation: cambio  30s infinite alternate;
+}
+
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+
+.slider img{
+  width: 90%;
+ top: 90px;
+
+
+}
+
+@keyframes cambio{
+  0% {margin-left: 0;}
+  10% {margin-left: 0;}
+
+  15%{margin-left: -100%;}
+  25%{margin-left: -100%;}
+
+  30%{margin-left: -200%;}
+  40%{margin-left: -200%;}
+
+  45%{margin-left: -300%;}
+  55%{margin-left: -300%;}
+
+  60%{margin-left: -400%;}
+  70%{margin-left: -400%;}
+
+  75%{margin-left: -500%;}
+  85%{margin-left: -500%;}
+
+  90%{margin-left: -600%;}
+  100%{margin-left: -600%;}
+}
+
+
+
+
+ul {
+  height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  height: 30px;
+  float: left;
+}
+
+li a {
+  margin-left: 360px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: orange;
+}
+
+
+body {
+
+  background-color: #8AFF33;
+
+ }
+
+h2{
+  margin: 0px;
+}
+
+ h1  {
+
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:70px ;
+  width:1000px;
+ }
+
+ #menu{
+
+ 	background-color:#FCFF33;
+  padding: 5px;
+  height: 2 px;
+  weight: 2 px;
+  border: 2px solid green;
+
+ }
+
+#banner img{
+  margin-left: 200px;
+}
+
+ #banner{
+ 	background-color:#CFDCBE;
+  height: 70px;
+  weight: 2px;
+  border: 2px solid green;
+  margin: 5px;
+ }
+
+ #marcofoto{
+ 	background-color:white;
+  height: 700px;
+  weight: 600px;
+  border: 2px solid green;
+  margin: 5px;
+
+ }
+
+
+ #pie{
+  background-color:#CFDCBE;
+  padding: 25px;
+  height: 2px;
+  weight: 2px;
+  border: 2px solid green;
+  margin: 0.1px;
+  clear: both;
+  
+ }
+
+
+#MenuInicio{
+  position: relative;
+  width: 250px;
+}
+
+.submenu1{
+  width: 90px;
+}
+
+.botonini{
+  background-color: #CFDCBE;
+}
+
+.botonini a{
+  margin-top: 0px;
+  color: black;
+}
+#copy{
+
+  float: left;
+}
+
+.foot {
+  float: right;
+  margin-right:15px ;
+  font-size: 15;
+
+}
+.foot li{
+   float: right;
+  border-right: 2px solid green;
+  list-style: none outside none;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}

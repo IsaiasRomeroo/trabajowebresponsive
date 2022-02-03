@@ -1,0 +1,233 @@
+#PosCenter{
+	font-family: cursive;
+	text-align: center;
+	border: 5px solid greenyellow;
+	background: green ;
+	width: 500px;
+	height: 520px;
+	margin-left: 500px;
+	margin-bottom: 550px;
+	margin-top: -100px;
+}
+
+label{
+	display: block;
+	float: left;
+	margin-left:120px;
+	color: white;
+}
+
+input{
+	display: block;
+	float: right;
+	margin-right: 100px;
+}
+
+#positionPos{
+	margin-top: 60px;
+}
+
+body{
+	background-repeat:no-repeat; ;
+}
+
+h1{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+ #menu{
+
+ background-color:#FCFF33;
+  padding: 5px;
+  height: 24%;
+  width: 100%;
+  border: 2px solid green;
+
+ }
+
+#banner img{
+  margin-left: 200px;
+}
+
+ #banner{
+ background-color:#CFDCBE;
+  height: 70px;
+  weight: 2px;
+  border: 2px solid green;
+  margin: 5px;
+ }
+ 
+ li a:hover {
+  background-color: orange;
+}
+#MenuInicio{
+  position: relative;
+  width: 250px;
+}
+
+.submenu1{
+  width: 90px;
+}
+
+.botonini{
+  background-color: #CFDCBE;
+}
+
+.botonini a{
+  margin-top: 0px;
+  color: black;
+}
+
+ul,li {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+
+}
+#logo{
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  margin-left: 10px;
+  border-color: white;
+}
+
+
+
+ul,li {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+
+}
+
+
+
+ul {
+  height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  height: 30px;
+  float: left;
+}
+
+li a {
+  margin-left: 360px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: orange;
+}
+
+
+
+h2{
+  margin: 0px;
+}
+
+ h1  {
+
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:70px ;
+  width:1000px;
+ }
+
+ #menu{
+
+ 	background-color:#FCFF33;
+  padding: 5px;
+  height: 2 px;
+  weight: 2 px;
+  border: 2px solid green;
+
+ }
+
+#banner img{
+  margin-left: 200px;
+}
+
+ #banner{
+ 	background-color:#CFDCBE;
+  height: 70px;
+  weight: 2px;
+  border: 2px solid green;
+  margin: 5px;
+ }
+
+
+
+
+ #pie{
+  background-color:#CFDCBE;
+  padding: 25px;
+  height: 2px;
+  width:  1849px;
+  border: 2px solid green;
+  margin-left: -8px;
+  clear: both;
+  margin-top: 7px;
+  
+  
+ }
+
+
+#MenuInicio{
+  position: relative;
+  width: 250px;
+}
+
+.submenu1{
+  width: 90px;
+}
+
+.botonini{
+  background-color: #CFDCBE;
+}
+
+.botonini a{
+  margin-top: 0px;
+  color: black;
+}
+#copy{
+
+  float: left;
+}
+
+.foot {
+  float: right;
+  margin-right:15px ;
+  font-size: 15;
+
+}
+.foot li{
+   float: right;
+  border-right: 2px solid green;
+  list-style: none outside none;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+.container{
+	
+	background-color:lightgoldenrodyellow;
+	width: 1423px;
+	padding: 150px;
+	height:340px;
+  	padding-right: 322px;
+  	margin-top:10px
+}

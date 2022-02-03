@@ -1,0 +1,97 @@
+ul.slider{
+
+	position:absolute;
+	center: auto;
+	bottom: 150px;
+  width: 1300px;
+	height: 400px;
+	
+
+}
+
+ul.slider li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	background-color: white;
+	transition:  opacity .5s;
+	
+}
+
+ul.slider li img{
+	width: 101%;
+	height: 400px;
+
+}
+
+
+
+ul.slider li:first-child{
+	opacity: 1;
+}
+
+
+
+ul.slider li:target{
+	opacity: 1;
+}
+
+.menu1{ 
+	text-align: center;
+	margin: 20px;
+	position: absolute; 
+	top: 825px;
+	right: 700px;
+
+
+}
+
+ .menu1 li{
+ 	display: inline-block;
+ 	text-align: center;
+
+ }
+
+ .menu1 li a {
+ 	display: inline-block;
+ 	color: black;
+ 	text-decoration: none;
+ 	background-color: grey;
+   padding:5px;
+   width: 20px;
+   height: 20px;
+   font-size: 18px;
+   border-radius: 100%;
+
+
+
+ }
+
+
+
+
+  <ul class="slider">
+                <li id="slide1"><img src="imagenes/FotoBuho.png"></li>
+                <li id="slide2"><img src="imagenes/girsasol.jpg"></li>
+                <li id="slide3"><img src="imagenes/galaxia.jpg"></li>
+                
+                
+
+               
+
+            </ul>
+
+            <ul class="menu1">
+                <li><a href="#slide1">1</a></li>
+                <li><a href="#slide2">2</a></li>
+                <li><a href="#slide3">3</a></li>
+                
+                
+            </ul>
+
+
+
+

@@ -1,0 +1,37 @@
+h1{
+	font-size: 1.9em;
+	position:relative;
+	float:left;
+	margin-left: -72%;
+
+
+}
+img{
+	width: 4em;
+	height: 4em;
+}
+.botonini{
+	margin-top:1.5em;
+	width: -12%;
+	height: 3em;
+
+}
+.botonini img{
+	width: 1em;
+	height: 1em;
+
+}
+
+#inicio h2{
+	margin-left:-1200%;
+}
+#Ofertas h2{
+	margin-left:-1200%;
+	
+}
+#banner img{
+width: 3.7em;
+height: 3em;
+display: block;
+margin-left:;
+}
